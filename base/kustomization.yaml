@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- deployment.yaml
+
+namespace: testing
+
+images:
+- name: diegoparra/lf-app
+  newName: diegoparra/lf-app
+  newTag: 4f328c3d807d7755c0fcba5cf3d41c3bc05b0032
