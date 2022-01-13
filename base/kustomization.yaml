@@ -9,4 +9,4 @@ namespace: testing
 images:
 - name: diegoparra/lf-app
   newName: diegoparra/lf-app
-  newTag: 6c7f5fb604b4832c3bd4cbb0c9c3ed4a2c7b119d
+  newTag: 53c5b109d5f67b7f38c847bfa5781d84ff464b8b
