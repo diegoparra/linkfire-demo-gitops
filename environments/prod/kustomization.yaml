@@ -3,6 +3,7 @@ kind: Kustomization
 bases:
 - ../../base
 
+namespace: linkfire-prod
 
 patches:
 - target:
