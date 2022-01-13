@@ -9,6 +9,7 @@ spec:
   selector:
     matchLabels:
       injectvars: "true"
+  replicas: 1
   strategy:
     rollingUpdate:
       maxSurge: 1
